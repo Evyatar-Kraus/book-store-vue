@@ -15,8 +15,9 @@ import bookCreate from './BookCreate'
 import bookPreview from './BookPreview'
 import bookEdit from './BookEdit'
 import bookDetails from './BookDetails'
+
 export default{
-  name: 'hello',
+  name: 'book-list',
   data () {
     return {
       local: {
